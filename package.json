@@ -1,0 +1,46 @@
+{
+    "name": "at-lab-2022cw12-js-ay-vr-team",
+    "version": "1.0.0",
+    "description": "Test automation framework for EPAM AT Lab (2022CW12 JS AY-VR Team)",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "eslint": "eslint .",
+        "wdio": "wdio run wdio.conf.js",
+        "allure": "allure generate allure-results/ --clean && allure open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://git.epam.com/Aliaksandr_Yeutushkou/at-lab-2022cw12-js-ay-vr-team.git"
+    },
+    "authors": [
+        "Aliaksandr_Yeutushkou@epam.com",
+        "viachaslau_rouski@epam.com",
+        "ivan_shadrin@epam.com",
+        "jasurbek_erkinov@epam.com",
+        "marharita_dubanevich@epam.com"
+    ],
+    "license": "EPAM Systems",
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.20.3",
+        "@wdio/cli": "^7.20.5",
+        "@wdio/local-runner": "^7.20.5",
+        "@wdio/mocha-framework": "^7.20.3",
+        "chai": "^4.3.6",
+        "chromedriver": "^103.0.0",
+        "eslint": "^8.19.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "mocha": "^10.0.0",
+        "wdio-chromedriver-service": "^7.3.2",
+        "wdio-reportportal-reporter": "^7.4.2",
+        "wdio-reportportal-service": "^7.3.1"
+    },
+    "dependencies": {
+        "@faker-js/faker": "^7.3.0",
+        "commander": "^9.4.0",
+        "@faker-js/faker": "^7.3.0",
+        "app-root-path": "^3.0.0",
+        "winston": "^3.8.1"
+    }
+}
